@@ -1,0 +1,10 @@
+2015-01-16,john,mary,125.00
+2015-01-17,john,supermarket,20.00
+2015-01-17,mary,insurance,100.00
+2015-01-18,mary,supermarket,10.75
+2015-01-18,sarah,john,50.00
+2015-01-18,sarah,anna,40.42
+2015-01-18,anna,insurance,400.01
+2015-01-19,mary,sarah,5.00
+2015-01-20,john,pizza,25.50
+2015-01-20,anna,john,0.99

@@ -14,6 +14,9 @@ that John's balance on January 16th was §-125.00, but Mary's was §125.00.
 
 The fictional currency is equivalent to the amount in USD with a § character replacing the $ sign.
 
+If an account has multiple transactions within a given day, the balance returned
+corresponds to the latest balance. 
+
 ### Instructions
 
 Dependencies can be installed by running `pip install -r requirements.txt`.

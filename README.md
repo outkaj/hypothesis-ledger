@@ -4,8 +4,7 @@ This program processes ledger text in the format `[date,payer,payee,amount]` and
 returns the balance for a given account on a given date.
 
 For example, given the input below in a text file, the program can determine
-that John's balance on
-January 16th was -§125.00, but Mary's was §125.00.
+that John's balance on January 16th was §-125.00, but Mary's was §125.00.
 
 ```
 2015-01-16,john,mary,125.00

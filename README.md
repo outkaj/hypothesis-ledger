@@ -1,6 +1,10 @@
-This program processes ledger text files where each line represents a financial
-transaction in the format [date,payer,payee,amount]. For an example of this
-format, see below:
+### Description
+
+This program processes ledger text in the format `[date,payer,payee,amount]` and
+returns the balance for a given account on a given date.
+
+For example, given the input below in a text file, the program can determine
+that John's balance on January 16th was -§125.00, but Mary's was §125.00.
 
 ```
 2015-01-16,john,mary,125.00
@@ -8,9 +12,10 @@ format, see below:
 2015-01-17,mary,insurance,100.00
 ```
 
-It provides utilities for returning the balance for a given account on a given date.
-The fictional currency is equivalent to USD apart from a &#00A7 character in
-front of the amount.
+The fictional currency is equivalent to the amount in USD with a § character
+replacing the $ sign.
+
+### Instructions
 
 Dependencies can be installed by running `pip install -r requirements.txt`.
 The only dependency (besides Python 3+) is the

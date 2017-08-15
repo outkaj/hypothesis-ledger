@@ -25,8 +25,8 @@ The only dependency (besides Python 3+) is the
 
 The program itself can be run from the `ledger_utils` directory:
 
-`python process_ledger.py`.
+`python process_ledger.py`
 
 The tests can be run from the project's root directory:
 
-`python tests.py`.
+`python tests.py`
